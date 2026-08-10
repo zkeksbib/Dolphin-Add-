@@ -273,5 +273,3 @@ while True:
             processed_ids.add(uid)
 
     time.sleep(3)
-
-```
