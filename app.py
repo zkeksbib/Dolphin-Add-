@@ -64,10 +64,10 @@ PANELS = [
     },
     {
         "name": "PSCall Panel",
-        "url": "http://pscall.net/restapi/smsreport",
+        "url": "https://pscall.net/api/v1/messages",
         "headers": {"User-Agent": "Mozilla/5.0"},
         "params": {
-            "key": "SVFWRT1SS4RygI6Ag1FQSQ==", 
+            "key": "6Atb1miXwRIA1Rby1AASRADNy95KlIoKZ", 
             "start": 0, 
             "length": 500,
             "start_date": "2026-08-10",
@@ -96,7 +96,7 @@ TELEGRAM_GROUP_ID = "-1003867730992"
 processed_ids = set()
 
 def send_telegram(msg):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMhttps://pscall.net/api/v1/messagesessage"
     keyboard = {
         "inline_keyboard": [
             [
