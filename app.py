@@ -67,7 +67,7 @@ PANELS = [
         "url": "https://pscall.net/api/v1/messages",
         "headers": {"User-Agent": "Mozilla/5.0"},
         "params": {
-            "key": "6Atb1miXwRIA1Rby1AASRADNy95KlIoKZ", 
+            "token": "6Atb1miXwRIA1Rby1AASRADNy95KlIoKZ-KdwdGn-3E", 
             "start": 0, 
             "length": 500,
             "start_date": "2026-08-10",
